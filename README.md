@@ -24,10 +24,6 @@
 
 <li>Download and paste all the files from scripts into the scripts folder that you have created</li>
 
-<li>Run the xx.sh code </li>
-<I>P.S. Follow the steps in the Techniques section below</I>
-</ol>
-
 ## Techniques 
 <ol>
 <li><b>For Welcoming Message</b></li>
