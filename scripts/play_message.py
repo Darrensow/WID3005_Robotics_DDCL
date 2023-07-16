@@ -15,7 +15,7 @@ def callback(data):
 
 def play_sound():
     sound_handle = SoundClient()
-    rospy.sleep(2)
+    rospy.sleep(2) # allow time for initialization.
     sound_handle.stopAll()
     sound_handle.say('welcome to DDCL')
     rospy.sleep(3)

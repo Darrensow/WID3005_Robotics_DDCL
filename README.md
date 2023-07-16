@@ -25,6 +25,9 @@
 <li>Download and paste all the files from scripts into the scripts folder that you have created</li>
 
 ## Techniques 
+
+`roscore`
+
 <ol>
 <li><b>For Welcoming Message</b></li>
 

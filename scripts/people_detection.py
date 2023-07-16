@@ -16,6 +16,8 @@ def callback(data):
 if __name__ == '__main__':
     rospy.init_node("listener", anonymous=True)
     rospy.loginfo("Successfully launch")
+    # Subscribes to the topic 'yolo_launcher' and specifies that the callback
+    # function callback should be called when a message is received
     rospy.Subscriber("yolo_launcher", Bool,  callback=callback)
     rospy.spin()
 
